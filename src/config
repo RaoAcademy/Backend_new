@@ -1,0 +1,14 @@
+{"initialNewUserTestRemaining" :10}
+{"difficultyLevel": {"1":"easy", "2":"medium", "3":"hard"}}
+{"coins": {"easy":1, "medium":2, "hard":3}}
+{"time": {"easy":10, "medium":20, "hard":30}}
+{"rewards": {"selfCoins":20, "peerCoins":50}}
+{"marks": {"easy":[1,-0.5,0.25], "medium":[2,-1,0.5], "hard":[4,-2,1]}}
+{"praticeTestDescription":"This test is generated based on the questions you have marked wrong"}
+{"customTestDescription":"This test is generated based on the your selected options"}
+{"Performance": {"0":"Bad", "50":"Average", "65":"Good", "80":"Excellent"}}
+{"subscriptionFields":{"internetHandling":0, "GST%":0, "coinEquivalentRupees":1}}
+{"analyticsStrongOrWeakThreshold":60}
+{"progressBadges":[5, 20, 40, 70, 100]}
+{"performanceBadges":{"80":5, "P":20, "80":10, "90":5, "90":20, "90":30, "P":40, "P":60, "90":30, "A":5}}
+{"reports":{"NoOfTests":5, "NoOfPracticeTests":3, "Performance":70, "accuracy":70, "confidence":70, "time":600}}

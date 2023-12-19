@@ -1,0 +1,62 @@
+To insert into table 
+roles
+INSERT INTO roles VALUES (2, "owner", 1, "2022-05-23 00:00:00");
+#PK, desc , addedby FK, date
+admin
+INSERT INTO admin VALUES (2, "raju", "raju", 1, "raju@owner", "123456798", "1,2,5,", "2022-05-23 00:00:00", 1);
+#PK, un, pwd, status, email, phone, "roles comma seperated", date, createdby FK
+school
+INSERT INTO school VALUES (1, 'kv bangalore 1', 2, 'hebbal');
+#PK, name, board, addr
+grade
+INSERT INTO grade VALUES (1, 10);
+subject
+INSERT INTO school VALUES ('Maths', 1, 1, 2, 1, 1, "2022-05-23 00:00:00"))
+#name, code, grade FK, board FK, sort, addedby FK, date
+Avatar
+INSERT INTO avatar VALUES (1, 'Avatar1', '../path')
+Chapter
+INSERT INTO chapter VALUES (1, 'name', '../path', 1 sub FK, admin FK, 'caption', 'desciption', Num sortOrder, datetime, 'tags comma separated')
+
+
+
+to display table schema
+show columns from <table>;
+
+to display table
+select * from <table>;
+
+
+
+#to update 1 or many attribute in a table
+UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition; 
+
+#to detete 1 or more entries
+delete from table_name where condition;
+
+
+#add column
+ALTER TABLE table_name ADD column_name datatype; 
+
+#modify column
+alter table test modify name varchar(50);
+
+#modify column name
+alter table questionMatch rename column leftChoice3imagePath to leftChoice3ImagePath;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
